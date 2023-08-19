@@ -40,17 +40,7 @@ let changeText = () => {
 changeText();
 setInterval(changeText, 3000)
 
-// about read more button
-// var button = document.getElementById('toggleButton');
-//     var paragraph = document.getElementById('myParagraph');
 
-//     button.addEventListener('click', function() {
-//       if (paragraph.classList.contains('hidden')) {
-//         paragraph.classList.remove('hidden');
-//       } else {
-//         paragraph.classList.add('hidden');
-//       }
-//     });
 
 
 
@@ -93,7 +83,7 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY> 50)
 })
 
-// toogke icon navbar??
+// toogke icon navbar
 
 let menuIcon = document.querySelector("#menu-icon");
 let navlist = document.querySelector('.navlist')
@@ -108,8 +98,7 @@ window.onscroll = () => {
     navlist.classList.remove("open");
 }
 
-//parallax //////////////////////////////////////////////
-//time 2.06 write pallarax in css 
+//parallax /////////////////////////////////////////////
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

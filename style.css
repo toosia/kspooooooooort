@@ -59,7 +59,6 @@ header {
     justify-content: space-between;
     width: 100%;
     padding: 20px 10%;
-    border: 1px solid red;
 }
 header.sticky{
     background: var(--bg-color);
@@ -461,9 +460,6 @@ section {
     font-size: 1rem;
     font-weight: 600;
 }
-/* #toogleButton .hidden{
-    display: none;
-} */
 /* service sectionn------------------------------------------------------------------- */
 .main-text {
     width: 100%;
