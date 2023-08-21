@@ -283,15 +283,16 @@
             <span>Ask Me Question</span>
             <h2>Contact Me</h2>
         </div>
-        <form method="post" action="https://script.google.com/macros/s/AKfycbx-j9ixsFcgSlAcPZO0jkDmpNr5SDtkL-8mIvlYAez3JnbtnmRpRDtZP51sZi4aBXe4oA/exec">
+        <form id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbx-j9ixsFcgSlAcPZO0jkDmpNr5SDtkL-8mIvlYAez3JnbtnmRpRDtZP51sZi4aBXe4oA/exec">
             <input type="text" placeholder="Your Name" name="name">
             <input type="text" placeholder="Your Email" name="email">
             <input type="text" placeholder="Your Address" name="address">
             <input type="number" placeholder="Phone Number" name="phonenumber">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="message"></textarea>
+            <textarea  cols="30" rows="10" placeholder="Your Message" name="message"></textarea>
             <div class="btn-box formbtn">
                 <button type="submit" class="btn">Send Message</button>
             </div>
+            <div id="responseMessage" style="display: none;"></div>
         </form>
     </section>
     <!-- footer section------------------------------------------- -->
